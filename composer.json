@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "php": "^7.2.9",
         "illuminate/support": "^5.7",
         "illuminate/session": "^5.7",
         "illuminate/events": "^5.7"
