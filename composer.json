@@ -1,12 +1,12 @@
 {
-    "name": "gloudemans/shoppingcart",
+    "name": "alhoqbani/shoppingcart",
     "description": "Laravel Shoppingcart",
     "keywords": ["laravel", "shoppingcart"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rob Gloudemans",
-            "email": "info@robgloudemans.nl"
+            "name": "Hamoud Alhoqbani",
+            "email": "h.alhoqbani@gmail.com"
         }
     ],
     "require": {
@@ -21,22 +21,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Gloudemans\\Shoppingcart\\": "src/"
+            "Alhoqbani\\Shoppingcart\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
+            "Alhoqbani\\Tests\\Shoppingcart\\": "tests/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
+                "Alhoqbani\\Shoppingcart\\ShoppingcartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
+                "Cart": "Alhoqbani\\Shoppingcart\\Facades\\Cart"
             }
         }
     }
